@@ -18,7 +18,7 @@ if not decimalpoints.isdigit() or int(decimalpoints) < 1:
 
 getcontext().prec = int(decimalpoints)
 
-precision = int(decimalpoints) * 3
+precision = int(decimalpoints) * 10
 
 i = 0
 upperBound = number
